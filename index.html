@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookBoundAnswers | Home</title>
+    <style>
+      @import url("https://fonts.googleapis.comcss2?family=Roboto+Mono:wght@100&display=swap");
+
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Roboto Mono";
+        color: white;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to left, green, #1b3348);
+      }
+      .lists {
+        height: 50px;
+        width: 250px;
+        background-color: transparent;
+        margin: 1em;
+        display: flex;
+        align-items: center;
+        box-shadow: 0em 0.4em 0.5em rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        padding: 2.1rem;
+        /* position: relative; */
+      }
+      h3 {
+        width: 100%;
+        text-align: center;
+        color: white;
+      }
+      a{
+        text-decoration: none;
+      }
+      .lists::after {
+        content: attr(title);
+        position: absolute;
+        font-size: 1.2em;
+        padding: 0.5em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="base">
+      <div class="lists" title="1">
+        <a href="https://riversanthony.gumroad.com/l/eoepk?_gl=1*zox0a5*_ga*NTMyODkzNjU0LjE2OTIyMDE5MTA.*_ga_6LJN6D94N6*MTY5MjkxNTIxOS44LjEuMTY5MjkxNTY0MC4wLjAuMA.."><h3>Mastering Stress: Techniques For Balance</h3></a>
+      </div>
+
+      <div class="lists" title="2">
+        <h3>Coming soon</h3>
+      </div>
+
+      <div class="lists" title="3">
+        <h3>Coming soon</h3>
+      </div>
+
+      <div class="lists" title="4">
+        <h3>Coming soon</h3>
+      </div>
+    </div>
+  </body>
+</html>
